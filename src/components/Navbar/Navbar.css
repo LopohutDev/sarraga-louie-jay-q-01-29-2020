@@ -1,0 +1,88 @@
+@media only screen {
+  .nav-width {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+  }
+  .nav-logo {
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+    width: 90%;
+  }
+  .navbar-main {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+  .navbar-main {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80rem;
+    margin: auto;
+    align-items: center;
+  }
+  .navbar-number {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .nav-logo {
+    width: 50%;
+  }
+  .nav-width {
+    width: 50%;
+    display: block;
+  }
+  .navbar-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+  }
+  .nav-buttons {
+    font-size: xx-small;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border: none;
+    background-color: white;
+  }
+  .nav-buttons:hover {
+    background-color: #00437c;
+    color: white;
+  }
+  .nav-buttons-active {
+    font-size: xx-small;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border: none;
+    color: white;
+    background-color: #00437c;
+  }
+  .nav-yellow-button {
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    height: 2.5rem;
+    color: white;
+    background-color: #e39300;
+  }
+  .hamburger {
+    display: none;
+  }
+}

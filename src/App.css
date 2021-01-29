@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen {
+  .columncontainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .columnimage {
+    height: 20rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .buttoncontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .achievementscontainer {
+    text-align: center;
+  }
+  .map {
+    height: 41vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .footerbutton {
+    border: none;
+    background-color: #00437c;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-top: lightgray;
+    border: 0.5rem;
+    font-size: 1rem;
+  }
+  .footerlogo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.25rem;
+    margin-top: 2rem;
+    align-items: center;
+    width: 100%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 64.063em) {
+  .break {
+    background-color: #00437c;
+    height: 0.25rem;
+    border-color: #00437c;
+    margin: 0px;
   }
-  to {
-    transform: rotate(360deg);
+  .footerbutton {
+    border: none;
+    background-color: transparent;
+    color: black;
+  }
+  .footerbuttoncontainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footerlogo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0.25rem;
+    margin-top: 2rem;
+    align-items: center;
+    width: 100%;
+  }
+  .footercontainer {
+    max-width: 75rem;
+    margin: auto;
+    padding: 5rem;
+  }
+  .columnimage {
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .achievementscontainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .achievementsbutton {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    width: 32rem;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+    background-color: #e29300;
+  }
+  .solutionscontainer {
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header2 {
+    height: 22rem;
+    width: 100%;
+    margin-top: 2rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .columncontainer {
+    display: flex;
+    width: 33.33;
+    padding: 0.5rem;
+    flex-direction: row;
+  }
+  .buttoncontainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .map {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 50rem;
   }
 }

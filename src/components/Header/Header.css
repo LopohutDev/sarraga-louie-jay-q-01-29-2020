@@ -1,0 +1,59 @@
+@media only screen {
+  .cards {
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .carouselphoto {
+    background-image: url(../../images/Header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100vh;
+  }
+  .carousel {
+    width: 100%;
+  }
+  .cardscontainer {
+    max-width: 75rem;
+    width: 100%;
+    object-position: center;
+    display: block;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  .carousel {
+    background-color: yellow;
+  }
+  .carouselphoto {
+    background-image: url(../../images/Header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .carouselcontainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  .cardscontainer {
+    position: absolute;
+    max-width: 75rem;
+    bottom: -20%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+  }
+  .cards {
+    width: 33.33%;
+    height: 100%;
+    padding: 0.5rem;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
